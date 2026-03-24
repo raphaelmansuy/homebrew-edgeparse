@@ -8,11 +8,11 @@ class Edgeparse < Formula
   on_macos do
     on_arm do
       url "https://github.com/raphaelmansuy/edgeparse/releases/download/v0.2.0/edgeparse-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d7fd5747f2e6b0c49cec9fb79d4c474c854c8d10893aa17fc722b8507211f2ac"
+      sha256 "c97806358e48a34120f7a556d14c3e4e4e1498fd7fd794f77a5e2fc890eeef43"
     end
     on_intel do
       url "https://github.com/raphaelmansuy/edgeparse/releases/download/v0.2.0/edgeparse-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "804b02b4e4e4bc51c700af68511696cda77aa1178fe8e21a660d84f887b7a3ea"
+      sha256 "2d8cd7326500a9009ba50965ee06127d47a3c925b56321390e6ff63edef86f33"
     end
   end
 
