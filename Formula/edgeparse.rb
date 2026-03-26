@@ -2,17 +2,17 @@
 class Edgeparse < Formula
   desc "High-performance PDF-to-Markdown/JSON extraction engine (Rust)"
   homepage "https://github.com/raphaelmansuy/edgeparse"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/raphaelmansuy/edgeparse/releases/download/v0.2.0/edgeparse-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c97806358e48a34120f7a556d14c3e4e4e1498fd7fd794f77a5e2fc890eeef43"
+      url "https://github.com/raphaelmansuy/edgeparse/releases/download/v0.2.1/edgeparse-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "abc50fa609732552f9ae824448e182fbba18faf3a4c696289b9a0a7f1cdca59d"
     end
     on_intel do
-      url "https://github.com/raphaelmansuy/edgeparse/releases/download/v0.2.0/edgeparse-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2d8cd7326500a9009ba50965ee06127d47a3c925b56321390e6ff63edef86f33"
+      url "https://github.com/raphaelmansuy/edgeparse/releases/download/v0.2.1/edgeparse-0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "a4f1a7ae6b3d51f14e3cd4190371defb00f443ce363259e81d7a81ba6dedf351"
     end
   end
 
